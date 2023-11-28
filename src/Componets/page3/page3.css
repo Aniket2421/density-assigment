@@ -1,0 +1,47 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-content {
+    text-align: center;
+    line-height: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.t1 {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.t2 {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.t3 {
+    font-size: 72px;
+    font-weight: 700;
+    color: rgba(235, 255, 37, 1);
+}
+
+.para {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+button {
+    background-image: linear-gradient(to Right, rgba(212, 249, 56, 1), rgba(50, 216, 117, 1));
+    border-radius: 5px;
+    box-shadow: rgba(168, 239, 156, 0.8);
+    border: none;
+    font-weight: 800;
+    padding: 16px 50px;
+    text-transform: uppercase;
+    color: black
+}

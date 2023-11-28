@@ -1,0 +1,38 @@
+.container-1 {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titel-2 {
+    text-align: center;
+    width: 56%;
+    font-size: 40px;
+}
+
+.support {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    height: auto;
+    gap: 80px;
+    align-items: center;
+}
+
+.owner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    height: auto;
+    gap: 60px;
+    align-items: center;
+
+}

@@ -1,0 +1,31 @@
+.container-3 {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+
+}
+
+.titel-3 {
+    text-align: center;
+    width: 75%;
+    font-size: 40px;
+    line-height: 5px;
+}
+
+.paragraph {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 10px;
+}
+
+.blogs {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}

@@ -1,0 +1,89 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    background-color: rgba(42, 93, 50, 0.2);
+    height: 100px;
+    color: white;
+}
+
+.elements {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elements>button {
+    background-image: linear-gradient(to left, rgba(212, 249, 56, 1), rgba(50, 216, 117, 1));
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: rgba(168, 239, 156, 0.8);
+    border: none;
+    font-weight: 700;
+}
+
+.middel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 20px;
+
+}
+
+.text {
+    width: 700px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text span {
+    background: -webkit-linear-gradient(rgba(212, 249, 56, 0.7), rgba(213, 250, 57, 0.7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text p {
+    font-size: 24px;
+    color: rgba(231, 231, 234, 1);
+    font-weight: 400;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom {
+    width: 70vw;
+    height: 171px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 15% 0px 15%;
+    gap: 20px;
+}
+
+.border {
+    height: auto;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.border h3 {
+    font-size: 40px;
+}
+
+.border p {
+    font-size: 16px;
+}

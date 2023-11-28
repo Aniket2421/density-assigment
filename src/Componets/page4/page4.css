@@ -1,0 +1,57 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 45px;
+    margin-top: 120px;
+
+}
+
+.table {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 60px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    gap: 15px;
+    width: 55%;
+    height: 25%;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    font-size: 32px;
+    color: white;
+
+}
+
+.box {
+    border-right: 1px solid #ffffff;
+
+
+}
+
+.text-form {
+    line-height: 5px;
+    text-align: center;
+
+}
+
+.text-form h1 {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.text-form span {
+    color: rgba(212, 249, 56, 1);
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.text-form p {
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(231, 231, 234, 1);
+}
